@@ -1,0 +1,5 @@
+{
+  "description": "Regional exploratory variants; validation selects hyperparameters.",
+  "entrypoint": "run_traditional.py",
+  "arguments": ["--output-dir", "data/result/reproduction/traditional"]
+}

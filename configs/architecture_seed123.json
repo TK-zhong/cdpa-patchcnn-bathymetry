@@ -1,0 +1,5 @@
+{
+  "description": "All six controlled architecture experiments, including the raw8 repeat.",
+  "entrypoint": "run_architecture_ablation.py",
+  "arguments": ["--region=170_175_31_37", "--seed", "123", "--split-seed", "42", "--epochs", "200", "--device", "cuda", "--output-dir", "data/result/reproduction/architecture_seed123"]
+}

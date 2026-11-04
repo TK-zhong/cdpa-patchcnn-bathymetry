@@ -1,0 +1,5 @@
+{
+  "description": "Current implementation; does not claim to recreate a historical checkpoint.",
+  "entrypoint": "CDPA_split.py",
+  "arguments": ["--region=170_175_31_37", "--experiment", "cdpa12", "--seed", "123", "--split-seed", "42", "--epochs", "200", "--device", "cuda", "--comparison-cohort", "--output-dir", "data/result/reproduction/cdpa12_seed123"]
+}
